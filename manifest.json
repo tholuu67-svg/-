@@ -1,0 +1,10 @@
+{
+  "display_name": "Goblin Slayer Status",
+  "name": "goblin-slayer-status",
+  "version": "1.0.1",
+  "description": "A comprehensive status, inventory, map, and relationship manager for Goblin Slayer.",
+  "author": "Elainadesne",
+  "loading_path": "index.html",
+  "type": "window",
+  "allow_styles": true
+}
