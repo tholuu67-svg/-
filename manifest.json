@@ -1,0 +1,11 @@
+{
+  "display_name": "Goblin Slayer Status Bar",
+  "name": "gs_status_bar_extension",
+  "version": "2.0.0",
+  "author": "Elainadesne",
+  "description": "Advanced status bar for Goblin Slayer MVU system.",
+  "js": "index.js",
+  "css": "index.css",
+  "html": "panel.html",
+  "type": "panel"
+}

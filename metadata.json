@@ -1,0 +1,5 @@
+{
+  "name": "Goblin Slayer Status Extension",
+  "description": "A comprehensive status bar and management system for the Goblin Slayer character card in SillyTavern, featuring status tracking, quest logs, world relations, territory management, and an interactive map.",
+  "requestFramePermissions": []
+}

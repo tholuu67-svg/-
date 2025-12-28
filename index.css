@@ -1,0 +1,43 @@
+/* Leaflet Map Dark Mode Override */
+.leaflet-container {
+    background: #0f1322 !important;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(168, 192, 255, 0.3);
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(168, 192, 255, 0.5);
+}
+
+.text-shadow-sm {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+.text-shadow-md {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

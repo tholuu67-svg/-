@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              bgStart: '#1a234f',
+              bgEnd: '#3c2a4d',
+              primaryText: '#e0d6c8',
+              accentBlue: '#a8c0ff',
+              accentBlueDeep: '#82aaff',
+              hpColor: '#ff6b6b',
+              armorColor: '#8cb4ff',
+              mpColor: '#c792ea',
+              faithColor: '#fffac8',
+              staminaColor: '#5fdba7',
+            },
+            fontFamily: {
+              serif: ['Merriweather', 'serif'],
+              display: ['Cinzel', 'serif'],
+              decorative: ['Cinzel Decorative', 'serif'],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Cinzel+Decorative:wght@700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Load Main Script -->
+    <script src="index.js" type="module"></script>
+</head>
+<body>
+    <div id="gs-status-root" class="text-primaryText overflow-x-hidden selection:bg-accentBlue selection:text-bgStart w-full h-full">
+        <!-- React App will mount here -->
+        <div class="flex h-64 items-center justify-center text-accentBlue animate-pulse">Initializing Interface...</div>
+    </div>
+</body>
+</html>
